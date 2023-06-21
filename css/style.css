@@ -1,0 +1,152 @@
+:root {
+    --main-text-color: #2E2F42;
+    --span-color: #4D5AE5;
+    --bc-color: #FFFFFF;
+    --hover-color: #4D5AE5;
+    --solution-bg-color: #2E2F42;
+
+}
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-style: normal;
+}
+a:hover, a:active{
+    color: var(--hover-color);
+}
+
+
+body{
+    font-family: "Roboto",sans-serif;
+    background-color: var(--bc-color);
+    color: var(--main-text-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+/* --------HEADER----------- */
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 90%;
+}
+span{
+    color: var(--span-color);
+}
+.header-list-item {
+    font-size: 80%;
+}
+.address{
+    font-size: 80%;
+    font-weight: 400;
+}
+
+
+
+
+/* ------SOLUTION------------- */
+
+.solutions{
+    background-color: var(--solution-bg-color);
+}
+.solutions-title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 280%;
+    line-height: 60px;
+}
+.solutions-button{
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    font-size: 80%;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+.solutions-button:hover, .solutions-button:active{
+    cursor: pointer;
+    background-color: #404BBF;
+}
+
+
+/* ----------FOOTER----------- */
+.footer{
+    background-color: #2E2F42;
+    color: #F4F4FD;
+}
+.footer>p {
+    font-size: 80%;
+    font-weight: 400;
+}
+
+
+
+
+/* --------MAIN----------- */
+
+.main-item-list>li>h3 {
+    font-size: 120%;
+}
+.main-items>ul>li>p{
+    font-size: 80%;
+}
+
+
+
+
+/* ------WHAT ARE WE DOING----- */
+
+.doing>h2 {
+    font-size: 180%;
+}
+
+
+
+/* ---------OUR TEAM------------- */
+.our-team{
+    background-color: #F4F4FD;
+}
+.team-title{
+    font-size: 180%;
+    font-weight: 700;
+    line-height: 40px;
+}
+.team-list>li>h3{
+    font-size: 100%;
+}
+.team-list>li>p{
+    font-size: 80%;
+    font-weight: 400;
+    color: #434455;
+}
+
+
+
+/* -------------PORTFOLIO----------------------- */
+.filter-button{
+    font-size: 80%;
+    color: #4D5AE5;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    width: 78px;
+    height: 48px;
+}
+.filter-button.active{
+    background-color:#404BBF;
+    color: #FFFFFF;
+}
+.products-list-item>h3{
+    font-size: 100%;
+}
+.products-list-item>p{
+    font-size: 80%;
+    font-weight: 400;
+}
